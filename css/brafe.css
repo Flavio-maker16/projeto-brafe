@@ -47,32 +47,69 @@ body{
 .menu nav ul li {
     padding: 10px;
 }
-
-
-/*BANNER */
+/* BANNER*/
 
 .intro{
-    background-image: url(..img/bg-intro.jpg);
+    background-image: url(../img/bg-intro.jpg);
     padding: 150px 0;
     background-size: cover;
     color: #fff;
     text-align: center;
-    }
+}
 
-    .intro h1{
-        text-transform: uppercase;
-        font-size: 3em;  
-    }
-    .intro p{
-        font-style: italic;
-        font-size: 1.125em;
-    
-    }
-    .intro h1::after{
-        content: '';
-        display: block;
-        width: 20px;
-        height: 4px;
-        background: #fff;
-        margin: 10px auto;
-    }
+.intro h1{
+    text-transform: uppercase;
+    font-size: 3em;    
+}
+ .intro p{
+    font-style: italic;
+    font-size: 1.125em;
+ }
+
+ .intro h1::after{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 4px;
+    background: #fff;
+    margin: 10px auto;
+ }
+ /*SOBRE */
+
+.sobre{
+    padding: 60px 0;
+}
+.sobre h2{
+    font-size: 2.25em;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.sobre-item{
+flex: 1;
+margin: 0 10px;
+}
+.sobre-item img{
+    display: block;
+    max-width: 100%;
+}
+.sobre > p{
+    font-size: 1.125em;
+    line-height: 1.4em;
+    font-style: italic;
+    margin: 20px auto;
+    max-width: 460px;
+    text-align: center;
+}
+.sobre-item h3{
+    font-size: 2.25em;
+    line-height: 1em;
+    background-color: #252525;
+    color: #fff;
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    position: relative;
+    width: 220px;
+    top: -25px;
+    padding: 5px 0 10px 0;
+}
